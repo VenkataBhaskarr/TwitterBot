@@ -23,8 +23,7 @@ def main():
     api = tweepy.API(auth)
     time.sleep(0.3)
     tweets_listener = retweetTweetListener(test.bearer_token)
-    tweets_listener.delete_rules()
-    tweets_listener.add_rules(tweepy.StreamRule("(#forcommunity) (hiring) (Hiring) (Referral) (-is:retweet)"))
+    tweets_listener.add_rules(tweepy.StreamRule("(#techhiring) (-is:retweet)"))
     tweets_listener.filter(tweet_fields = ["referenced_tweets"])
 
 if __name__ == "__main__":
