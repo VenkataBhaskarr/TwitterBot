@@ -1,6 +1,6 @@
-# TwitterBot
+## TwitterBot
 
-## NOTE: This twitter bot is currently not working because of the monetization rules implemented by twitter in order to use the Twitter API.
+# NOTE: This twitter bot is currently not working because of the monetization rules implemented by twitter in order to use the Twitter API.
 
 ### A twitter bot built for the community 💜
 
